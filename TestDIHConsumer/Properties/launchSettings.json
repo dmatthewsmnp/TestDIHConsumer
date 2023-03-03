@@ -1,0 +1,30 @@
+﻿{
+	"$schema": "https://json.schemastore.org/launchsettings.json",
+	"iisSettings": {
+		"windowsAuthentication": false,
+		"anonymousAuthentication": true,
+		"iisExpress": {
+			"applicationUrl": "http://localhost:20465",
+			"sslPort": 44345
+		}
+	},
+	"profiles": {
+		"TestDIHConsumer": {
+			"commandName": "Project",
+			"dotnetRunMessages": true,
+			"launchBrowser": false,
+			"launchUrl": "weatherforecast",
+			"applicationUrl": "https://localhost:7263;http://localhost:5070",
+			"environmentVariables": {
+				"AZURE_TENANT_ID": "ce0612f0-adc0-4992-8d03-e8e7b3e692c3",
+				"ASPNETCORE_ENVIRONMENT": "Development",
+				"ServiceBus__fullyQualifiedNamespace": "mnp-bus-4e6ebf1a45050.servicebus.windows.net",
+				"QueueName": "dm-ingest/engagement",
+				"TopicName": "dm/engagement/v2",
+				"CosmosDB__accountEndpoint": "https://dmazlab-cosmos.documents.azure.com:443/",
+				"DBName": "db01",
+				"DBContainerEngagement": "Engagement"
+			}
+		}
+	}
+}

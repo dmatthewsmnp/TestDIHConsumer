@@ -1,0 +1,10 @@
+﻿global using System.Net;
+global using System.Text.Json;
+global using System.Text.Json.Serialization;
+global using Microsoft.Azure.Cosmos;
+global using Microsoft.Azure.Functions.Worker.Http;
+global using MNP.DIH.Shared.PayloadHandlers;
+global using MNP.DIH.Shared.V1;
+global using MNP.ServiceFabric.Shared.Collections;
+global using MNP.ServiceFabric.Shared.Cosmos;
+global using MNP.ServiceFabric.Shared.Envelope.V1;
